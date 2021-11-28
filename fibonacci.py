@@ -8,7 +8,7 @@ def getFib(pos, first, second):
         second = third
         return getFib(pos-1, first, second)
 
-position =  int(input("Enter a position upto which you want fibonacci sequence : "))
+position =  int(input("Enter a position for fibonacci sequence : "))
 
 if position <= 2:
     print("0\n1\n")
