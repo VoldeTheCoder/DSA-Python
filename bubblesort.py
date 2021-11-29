@@ -13,4 +13,4 @@ def bubble_sort(arr):
         last_index-=1
     print(arr)
 
-bubble_sort([1, 3, 9, 20, 25, 6, 21, 14])
+bubble_sort([10, 1, 3, 9, 20, 25, 6, 21, 14])
