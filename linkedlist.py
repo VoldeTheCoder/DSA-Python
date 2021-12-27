@@ -90,10 +90,10 @@ class LinkedList:
                     rnode.next = tmp3
                     lpnode.next = rnode
                     rpnode.next = lnode
-                print("Nodes swapped!!")
-                self.printList(3)
-                input("Press any key...")
-                commandInterface(self)
+            print("Nodes swapped!!")
+            self.printList(3)
+            input("Press any key...")
+            commandInterface(self)
 
     def deleteNode(self):
         os.system('cls')
